@@ -1,6 +1,8 @@
 <odoo>
-    <data>
-        <act_window id="todo_task_action" name="TODO task" res_model="todo.task" view_mode="tree,form"/>
-        <menuitem id="todo_task_menu" name="TODO task" sequence="10" action="todo_task_action"/>
-    </data>
+    <record id="todo_task_action" model="ir.actions.act_window">
+        <field name="name">TODO task</field>
+        <field name="res_model">todo.task</field>
+        <field name="view_mode">list,form</field>
+    </record>
+    <menuitem id="todo_task_menu" name="TODO task" sequence="10" action="todo_task_action"/>
 </odoo>
