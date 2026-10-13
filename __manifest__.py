@@ -7,6 +7,7 @@
     "author": "Kolchagov",
     "license": "Other OSI approved licence",
     "data": [
-        "views/todo_view.xml"
+        "views/todo_view.xml",
+        "views/todo_view_menu.xml"
     ]
 }
