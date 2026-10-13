@@ -1,0 +1,4 @@
+<odoo>
+    <menuitem id="todo_task_menu" name="TODO task" sequence="10"/>
+    <menuitem id="todo_task_menu_item" name="TODO task" parent="todo_task_menu" action="todo_task_action"/>
+</odoo>
